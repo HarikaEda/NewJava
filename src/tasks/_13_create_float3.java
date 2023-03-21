@@ -1,4 +1,4 @@
-package j02_DataTypes.tasks;
+package tasks;
 
 public class _13_create_float3 {
 

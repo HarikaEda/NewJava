@@ -16,35 +16,32 @@ public class CountE {
         output should be 1
         */
 
-
     //hint: .charAt, length(), for, index, counter,
-
-
 
     /* girilen inputda kac tane 'b' karakteri olduğunu  print eden code create ediniz.
 
      input: Test
             b: 0
         output 0
-
-
      input: bucket
             b:1
         output 1
         */
-
-
     //hint: .charAt, length(), for, index, counter,
-
-
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
-
         String text = input.nextLine();
+        //  bu standard  kodlari değiştirmeyiniz
+        int count=0;
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i)=='b') {
+                count++;
+            }
+        }
+        System.out.println(count);
 
-        // code start here
-        //  bu satırdan önceki kodlari değiştirmeyiniz
+
+
     }
 
 }

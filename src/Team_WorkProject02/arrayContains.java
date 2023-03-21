@@ -2,7 +2,7 @@ package Team_WorkProject02;
 
 import java.util.Scanner;
 
-public class ArContains {
+public class arrayContains {
     /*
         Given two arrays of ints sorted in increasing order,
         outer and inner,

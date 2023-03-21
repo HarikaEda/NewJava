@@ -14,14 +14,11 @@ public class Days {
             if the int is 6 print saturday
             if the int is 7 print sunday
             if the number more then 8 print "this is not a valid day"
-
             NOTE : USE A SWITCH STATEMENT WHILE DOING THIS EXERCISE
-
      */
 
     /*
             int data type variable(değişken) verildiğinde
-
                 Eger int 1 ise print monday
                 Eger int 2 ise print tuesday
                 Eger int 3 ise print wednesday
@@ -42,7 +39,26 @@ public class Days {
 
         //  code Start here don't change before this line
         // bu satırdan önceki kodlari degiştirmeyiniz.
+if (day==1){
+    System.out.println("monday");
+} else if (day == 2)
+        {
+            System.out.println("tuesday");
+        } else if (day == 3) {
+    System.out.println("wednesday");
+} else if (day == 4) {
+    System.out.println("thursday");
 
+}else if (day == 5) {
+    System.out.println("friday");
+} else if (day == 6) {
+    System.out.println("saturday");
+
+} else if (day == 7) {
+    System.out.println("sunday");
+} else if (day == 8) {
+    System.out.println("this is not a valid day");
+}
 
     }
 }

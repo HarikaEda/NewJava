@@ -9,7 +9,7 @@ public class C05Ternaryoperator {
         System.out.println("bir tam sayı giriniz");
         int sayi= input.nextInt();
         //System.out.println((sayi%2==0)?"sayı/2":"tekin yarısı olmaz ");
-      Object  sonuc=(sayi%2==0)?"sayı/2":"tekin yarısı olmaz ";
+      String sonuc=((sayi%2==0)?"sayı/2":"tekin yarısı olmaz ");
 
 
 

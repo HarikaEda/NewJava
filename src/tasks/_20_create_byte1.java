@@ -1,4 +1,4 @@
-package j02_DataTypes.tasks;
+package tasks;
 
 public class _20_create_byte1 {
 

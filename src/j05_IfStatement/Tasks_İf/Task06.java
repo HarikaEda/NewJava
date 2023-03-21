@@ -15,7 +15,8 @@ Yaşı 18 den büyük eşit ise ekrana “Kadın” yazdırın.
 		Scanner input = new Scanner(System.in);
 		System.out.println("cinsiyetinizi giriniz");
 		String cinsiyet = input.next();
-		int yas = 0;
+		System.out.println("yaşınızı giriniz");
+		int yas= input.nextInt();
 		if (cinsiyet.equals("erkek")) {
 			if (yas < 18) {
 				System.out.println("erkek çocuk");

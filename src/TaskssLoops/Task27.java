@@ -1,4 +1,4 @@
-package j08_Loops.TaskssLoops;
+package TaskssLoops;
 
 public class Task27 {
     public static void main(String[] args) {

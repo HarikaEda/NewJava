@@ -1,4 +1,4 @@
-package C11_Debugging;
+package j11_Debugging;
 
 public class j11_Debugging {
     public static void main(String[] args) {

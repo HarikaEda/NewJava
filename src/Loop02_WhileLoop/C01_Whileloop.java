@@ -1,7 +1,5 @@
 package Loop02_WhileLoop;
 
-import java.util.Scanner;
-
 public class C01_Whileloop {
     public static void main(String[] args) {
    /* Başlama,bitiş değişim değerleri net bilinen tekrarlarda foorloop ama adım sayısı değişim değeri net bilinmeyen

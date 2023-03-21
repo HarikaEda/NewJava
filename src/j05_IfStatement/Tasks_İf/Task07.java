@@ -19,7 +19,9 @@ Girdiği büyük harf ise harfin “Z” olup olmadığını kontrol edin. Harf 
 			System.out.println("Ilk küçük harf");
 		} else System.out.println("Ilk küçük harf değil");
 
-
+if (str.equals("Z")){
+	System.out.println("Son büyük harf");
+}else System.out.println("Son büyük harf değil");
 	}
 
 }

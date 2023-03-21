@@ -1,4 +1,4 @@
-package j10_MethodCreation.Tasks;
+package tasks;
 
 public class Task27 {
     public static void main(String[] args) {

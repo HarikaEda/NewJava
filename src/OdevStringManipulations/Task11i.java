@@ -1,7 +1,5 @@
 package OdevStringManipulations;
 
-import java.util.Scanner;
-
 public class Task11i {
     public static void main(String[] args) {
 /* TASK :

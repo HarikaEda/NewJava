@@ -1,4 +1,4 @@
-package j02_DataTypes.tasks;
+package tasks;
 
 public class _10_create_double4 {
 

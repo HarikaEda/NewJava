@@ -1,4 +1,4 @@
-package j10_MethodCreation.Tasks;
+package tasks;
 
 public class Task05Haluk {
     public static void main(String[] args){

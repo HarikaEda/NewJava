@@ -1,4 +1,4 @@
-package j02_DataTypes.tasks;
+package tasks;
 
 public class _14_create_short1 {
 

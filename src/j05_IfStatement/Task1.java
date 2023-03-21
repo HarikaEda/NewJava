@@ -7,17 +7,9 @@ public class Task1 {
 
      //girilen bir tam sayının pozitif olmasını kontrol eden code create ediniz.
         Scanner input=new Scanner(System.in);
-        System.out.println("bir sayı giriniz");
-      int sayi=input.nextInt();
-       String snc=sayi>0? "sayi pozitiftir" : "sayi pozitif değildir";
-        System.out.println("snc");
-
-
-
-
-
-
-
+        System.out.println("bir sayı ironizing");
+        int sayi= input.nextInt();
+        String sonuc=sayi>0?"girilen sayı pozitiftir":"girilen sayı negatiftir";
 
 
     }

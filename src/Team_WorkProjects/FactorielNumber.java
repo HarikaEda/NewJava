@@ -28,14 +28,17 @@ public class FactorielNumber {
          */
 
     Scanner dp = new Scanner(System.in);
-
-    String  strNum = dp.nextLine();
+    String strNum = dp.nextLine();
 
     int number = Integer.parseInt(strNum);
 
-    //      code start here  use int number
     //      kodu burdan başlatın ve int number kullanıniz
+    /*
+        int factorial = 1;
+        for (int i = 1; i <= number; i++) {
+            factorial = factorial * i;
+        }
+*/
 
-
-}
+    }
 

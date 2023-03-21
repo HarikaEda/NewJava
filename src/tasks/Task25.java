@@ -1,4 +1,4 @@
-package j10_MethodCreation.Tasks;
+package tasks;
 
 import java.util.Scanner;
 

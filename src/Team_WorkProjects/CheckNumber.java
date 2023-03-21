@@ -33,8 +33,16 @@ public class CheckNumber {
 
         int number = scanner.nextInt();
 
-        //  code Start here don't change before this line
         //bu satırdan önceki kodlari değiştirmeyiniz
+if (number % 2 == 0) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+
+
+
+
 
 
     }

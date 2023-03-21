@@ -18,7 +18,6 @@ public class PerfectSquare {
         Output: true
         Note: this number is perfect square because 5*5 is 25
 
-
         Example 3:
         Input: 14
         Output: false
@@ -40,30 +39,26 @@ Not: sqrt gibi method   kullanmayınız.
         Output: true
         Note: bu sayı tamkare çünkü 5*5=25
 
-
         Example 3:
         Input: 14
         Output: false
 
-
-
      */
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
         int input = scanner.nextInt();
-
-        //  code Start here don't change before this line
         // bu satırdan önceki kodları değiştirmeyiniz.
-
-
-
-
+       int i,x = 0;
+       for (i=0;i<=input/2+1;i++) {
+          if (x == i * i) {
+             System.out.println("tam karedir çünkü -> " + x/2+1);//burada hata veriyor
+          break;
     }
-
-
-
+}
+       if (x!=i*i) {
+              System.out.println("tam kare değildir çünkü -> ");
+}
+    }
 
 
 }
